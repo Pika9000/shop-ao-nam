@@ -45,7 +45,7 @@ export default function Home() {
           <div className="footer-info">
             <h3>SHOP ÁO THỜI TRANG</h3>
             <p>Chuyên cung cấp các sản phẩm thời trang chất lượng, uy tín và hợp mốt.</p>
-            <p><strong>Địa chỉ:</strong> 123 Đường ABC, Quận 1, TP. Hồ Chí Minh</p>
+            <p><strong>Địa chỉ:</strong> 123 Đường Tăng Nhơn Phú, Quận 9, TP. Hồ Chí Minh</p>
             <p><strong>Hotline:</strong> 0123 456 789</p>
             <p><strong>Email:</strong> hotro@shopao.com</p>
           </div>
