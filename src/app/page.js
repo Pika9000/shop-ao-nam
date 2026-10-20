@@ -117,7 +117,7 @@ export default function Home() {
           <p style={{ margin: '5px 0' }}>Hotline: 0368 758 333 | Email: hotro@shopao.com</p>
           <div style={{ margin: '15px 0', borderTop: '1px solid #333', paddingTop: '15px' }}>
             <p style={{ margin: 0, fontSize: '14px' }}>&copy; 2026 Shop Áo. Tất cả quyền được bảo lưu.</p>
-          </div>
+          </div>  
         </div>
       </footer>
 

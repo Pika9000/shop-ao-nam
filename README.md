@@ -20,6 +20,17 @@ You can start editing the page by modifying `app/page.js`. The page auto-updates
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+## Giỏ hàng và quản trị sản phẩm
+
+- `/products`: xem sản phẩm và thêm vào giỏ hàng.
+- `/cart`: cập nhật số lượng hoặc xóa sản phẩm. Giỏ hàng được lưu trong `localStorage` của trình duyệt.
+- `/admin/products`: giao diện demo thêm, sửa, xóa sản phẩm.
+- `GET /api/products?q=...`: danh sách sản phẩm công khai, có thể lọc theo từ khóa.
+- `GET /api/admin/products`, `POST /api/admin/products`: đọc và tạo sản phẩm.
+- `PUT /api/admin/products/[id]`, `DELETE /api/admin/products/[id]`: cập nhật và xóa sản phẩm.
+
+API quản trị cho phép ghi dữ liệu không cần token khi chạy môi trường development. Khi chạy production, cần cấu hình biến môi trường `ADMIN_API_TOKEN` trên server và nhập token đó trong trang quản trị. Danh mục sản phẩm hiện dùng bộ nhớ của tiến trình để demo nên sẽ trở về dữ liệu mẫu khi server khởi động lại; hãy thay bằng database trước khi triển khai cửa hàng thực tế.
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
